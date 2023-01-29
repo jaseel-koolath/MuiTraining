@@ -15,6 +15,7 @@ import MuiNavbar from "./components/MuiNavbar";
 import MuiLink from "./components/MuiLink";
 import MuiBreadcrumbs from "./components/MuiBreadcrumbs";
 import MuiDrawer from "./components/MuiDrawer";
+import MuiSpeedDail from "./components/MuiSpeedDail";
 
 function App() {
   return (
@@ -32,10 +33,11 @@ function App() {
       {/* <MuiCard /> */}
       {/* <MuiAccordion /> */}
       {/* <MuiImageList /> */}
-      <MuiNavbar />
-      {/* <MuiLink /> */}
+      {/* <MuiNavbar /> */}
+      {/* <MuiLink />
       <MuiBreadcrumbs />
-      <MuiDrawer />
+      <MuiDrawer /> */}
+      <MuiSpeedDail />
     </div>
   );
 }
