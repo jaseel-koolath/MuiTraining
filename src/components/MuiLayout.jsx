@@ -1,8 +1,14 @@
+import { Divider, Stack } from "@mui/material";
 import { Box } from "@mui/system";
 
 const MuiLayout = () => {
   return (
-    <>
+    <Stack
+      sx={{ border: "1px solid" }}
+      direction='row'
+      spacing={2}
+      divider={<Divider orientation='vertical' flexItem />}
+    >
       <Box
         sx={{
           color: "white",
@@ -20,7 +26,7 @@ const MuiLayout = () => {
       <Box display='flex' width={50} height={50} bgcolor='yellow' p={2}>
         Mazha
       </Box>
-    </>
+    </Stack>
   );
 };
 
